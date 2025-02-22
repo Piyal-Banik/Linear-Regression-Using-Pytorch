@@ -60,3 +60,17 @@ Run the ipynb notebook:
 ## Results
 The model learns to approximate the relationship between X and y. Training and test losses are displayed during training.
 
+## Saving and Loading the Model
+
+### 1. Save the Model
+- Creates a `models` directory if it doesn’t exist.
+- Defines a file path for saving the model (`linear_regression_model.pth`).
+- Saves only the model’s learned parameters using `torch.save()`.
+
+### 2. Load the Model
+- Creates a new instance of `LinearRegressionModel`.
+- Loads the saved parameters using `load_state_dict()`, restoring the model’s learned weights.
+
+This allows the trained model to be saved and reused without retraining.
+
+
