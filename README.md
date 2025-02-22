@@ -5,19 +5,6 @@
 This repository contains an implementation of a simple linear regression model using PyTorch. The model is trained on randomly generated dummy data and optimized using Stochastic Gradient Descent (SGD).
 
 
-
-
-
-
-Results
-
-The model learns to approximate the relationship between X and y. Training and test losses are displayed during training.
-
-License
-
-This project is open-source and available under the MIT License.
-
-
 ## Features
 
 - Uses PyTorch's nn.Module to define a linear regression model.
